@@ -1,0 +1,6 @@
+=============== Sep 18, 2018 (+07) ===============
+16:17:36.973333 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:17:37.034911 db@open opening
+16:17:37.036027 version@stat F·[] S·0B[] Sc·[]
+16:17:37.076690 db@janitor F·2 G·0
+16:17:37.076764 db@open done T·41.774701ms

@@ -1,0 +1,1 @@
+bin/tomo --config node2/config_local.toml --txpool.globalqueue 10000000 --txpool.globalslots 10000000 --txpool.accountqueue 100000000 --txpool.accountslots 10000000 --targetgaslimit 1000000000 > logs/node2.txt 2>&1
