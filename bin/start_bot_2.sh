@@ -1,1 +1,1 @@
-./bin/bot -n 10 -req 500 -password 123456 -key-file node1/keystore/UTC--2018-07-04T07-32-41.529884508Z--21292d56e2a8de3cc4672db039aaa27f9190b1f6  -url "http://127.0.0.1:8502"
+./bin/bot -n 1 -req 50 -password 123456 -key-file node5/keystore/UTC--2018-10-05T09-41-38.512895583Z--a737edf7365ae52721f0dee268f6659d44766d6d  -url "http://127.0.0.1:8502"

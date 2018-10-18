@@ -10,15 +10,15 @@ GasPrice	=   1	        # flag  --gasprice
 [Shh]
 
 [Node]
-DataDir	    =   "node2/"	# flag  --datadir
-HTTPPort    =   8502 	    	# flag  --rpcport
+DataDir	    =   "node3/"	# flag  --datadir
+HTTPPort    =   8503 	    	# flag  --rpcport
 HTTPHost    =   "localhost"	# flags --rpcaddr & --rpc
                                     # in 3 cases :
                                     #       HTTPHost is ""                          == --rpc &  --rpcaddr is not set
                                     #       HTTPHost is "localhost" or "127.0.0.1"  == only set --rpc
                                     #       HTTPHost is other IP (ex : 192.168.1.1) =  set 2 flags --rpc &  --rpcaddr
 WSHost      =   "localhost" # flags --wsaddr & --ws  . same option HTTPHost
-WSPort      =   8542        # flag  --wsport
+WSPort      =   8543        # flag  --wsport
 WSModules   =   ["eth","ssh"] #flag --wsapi
 
 
@@ -27,7 +27,7 @@ KeyStoreDir =   ""          # flag  --keystore
 UserIdent   =   ""          # flag  --identity
 
 [Node.P2P]
-ListenAddr  =   ":30312"    # flag  --port
+ListenAddr  =   ":30313"    # flag  --port
 
 BootstrapNodes = ["enode://92eb1e603232d88ebe96d75928cf3c1eed167f3ea3facb7a01acc5354dc8dd8c46243e6e51badbdee67c49ddef91c41ee153feeac905789ce7f976da398155a1@127.0.0.1:30310"]   # flag --bootnodes
 
@@ -37,7 +37,7 @@ URL         =   ""          # flag  --ethstats
 [Dashboard]
 
 [Account]
-Unlocks  = ["0x8c57cea3173e5a87b3a61d9d1fe6c0d462f5f9b3"]   # list account slipt in flag --unlock
+Unlocks  = ["0x2da72c9c4792e2ba85e2b980af4c6aa9afa9f3df"]   # list account slipt in flag --unlock
 Passwords = ["PWD_DEVNET"]    				                # list password in environment variable (split by ',') : ex : export PWD_DEVNET=123456,123456789
 
 
